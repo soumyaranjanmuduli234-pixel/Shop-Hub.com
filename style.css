@@ -1332,8 +1332,8 @@ footer {
 .nav-menu {
     display: flex;
     list-style: none;
+    gap: 2rem;
 }
-
 /* Hide hamburger on desktop */
 .hamburger {
     display: none;
