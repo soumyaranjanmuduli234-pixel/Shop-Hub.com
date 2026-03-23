@@ -1328,26 +1328,36 @@ footer {
     margin: 1rem 0;
 }
 
-/* Mobile menu hidden by default */
+/* Default desktop */
 .nav-menu {
     display: flex;
+    list-style: none;
+}
+
+/* Hide hamburger on desktop */
+.hamburger {
+    display: none;
 }
 
 /* Mobile view */
 @media (max-width: 768px) {
-    .nav-menu {
-        display: none;  /* ❌ default hide */
-        flex-direction: column;
-        width: 100%;
-        background: #fff;
-    }
-
-    .nav-menu.active {
-        display: flex;  /* ✅ click pe show */
-    }
 
     .hamburger {
         display: block;
         cursor: pointer;
+    }
+
+    .nav-menu {
+        display: none;              /* 🔴 important */
+        flex-direction: column;
+        width: 100%;
+        background-color: #fff;
+        position: absolute;
+        top: 60px;
+        left: 0;
+    }
+
+    .nav-menu.active {
+        display: flex;              /* 🟢 click pe show */
     }
 }
