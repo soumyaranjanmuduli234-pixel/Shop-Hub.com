@@ -1327,3 +1327,27 @@ footer {
     gap: 1rem;
     margin: 1rem 0;
 }
+
+/* Mobile menu hidden by default */
+.nav-menu {
+    display: flex;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;  /* ❌ default hide */
+        flex-direction: column;
+        width: 100%;
+        background: #fff;
+    }
+
+    .nav-menu.active {
+        display: flex;  /* ✅ click pe show */
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+}
