@@ -1,4 +1,5 @@
 // Product Database
+//Images sourced from Unsplash (https://unsplash.com/) under the Unsplash License (https://unsplash.com/license)
 const products = [
     {
         id: 1,
