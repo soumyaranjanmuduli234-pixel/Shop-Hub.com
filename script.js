@@ -1027,3 +1027,5 @@ function openAdmin() {
         alert("❌ Wrong Password!");
     }
 }
+
+//End of recent edits
