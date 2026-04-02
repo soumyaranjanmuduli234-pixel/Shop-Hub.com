@@ -1008,7 +1008,7 @@ function generateBillHTML(orderData) {
 
         <div class="bill-footer">
             <p>Thank you for shopping with ShopHub!</p>
-            <p>For any questions, contact us at info@shophub.com</p>
+            <p>For any questions, contact us at informationaboutshophub@gmail .com</p>
         </div>
     `;
 }
