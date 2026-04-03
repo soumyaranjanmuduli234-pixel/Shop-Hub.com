@@ -1,5 +1,4 @@
 /*start of recent edits*/
-
 * {margin: 0;padding: 0;box-sizing: border-box;}body{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;line-height: 1.6;color: #333;background-color: #f9f9f9;}.container {max-width: 1200px;margin: 0 auto;padding: 0 1rem;}
 /* Header & Navigation */
 header {
@@ -9,18 +8,15 @@ header {
     top: 0;
     z-index: 100;
 }
-
 .navbar {
     padding: 0;
 }
-
 .navbar .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1rem;
 }
-
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
